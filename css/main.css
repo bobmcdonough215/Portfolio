@@ -259,6 +259,11 @@ li {
     margin-top: 5rem;
 }
 
+.social-media p{
+    font-family: Roboto;
+
+}
+
 .social-media i {
     font-size: 5rem;
     transition: color 650ms;
