@@ -1,7 +1,7 @@
 /* Start global */
 @font-face {
     font-family: Blastimo;
-    src: url(/fonts/TheHistoriaDemo.ttf);
+    src: url(/fonts/TheHistoriaDemo.ttf)
   }
   @import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
@@ -127,7 +127,12 @@ li {
 }
 
 .nav-list {
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: filmotype-maxwell, sans-serif;
+    font-weight: 400;       
+    font-style: normal;
+   /* font-family: acier-bat-gris, sans-serif; 
+    font-weight: 400;
+    font-style: normal; */
     font-size: 5rem;
     padding: 1rem;
     -webkit-background-clip: text;
@@ -204,7 +209,12 @@ li {
 }
 
 .landing-text h1 {
-    font-family: 'The Historia Demo', sans-serif;
+    /*font-family: acier-bat-noir, sans-serif;
+    font-weight: 400;
+    font-style: normal;  */
+        font-family: filmotype-maxwell, sans-serif;
+    font-weight: 400;       
+    font-style: normal;  
     font-size: 15rem;
     background: linear-gradient(#fd57bf, #ffe838);
     -webkit-background-clip: text;
@@ -257,11 +267,6 @@ li {
 
 .social-media {
     margin-top: 5rem;
-}
-
-.social-media p{
-    font-family: Roboto;
-
 }
 
 .social-media i {
